@@ -1,1 +1,1 @@
-# CVTask
+https://stbagau.github.io/rsschool-cv/CV
