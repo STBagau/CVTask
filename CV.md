@@ -3,7 +3,7 @@
 ## Contacts
 
 * __Email:__ stanisbagau@gmail.com
-* __GitHub__ STBagau
+* __GitHub:__ STBagau
 
 ## About me
 
@@ -22,7 +22,7 @@ I am currently studying the Frontend Developper profession at RSSchool Stage0. I
 
 ## Education
 
-* Ural State Economic University
+* Ural State Economic University, Economist
 
 ## Languages
 
