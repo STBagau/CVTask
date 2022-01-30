@@ -3,12 +3,114 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>cv</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="assets/Myfavico.ico">
+    
 </head>
-<body>
-    <h1>Stanislav Bagautdinov</h1>
-    <img class="img" src="/assets/img/Myfoto.jpg" alt="my foto">
+<body class="body">
+    <header class="header">
+        
+
+        <div class="container">
+            <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#contacts" class="nav-link">contacts</a></li>
+                <li class="nav-item"><a href="#summary" class="nav-link">summary</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">skills</a></li>
+                <li class="nav-item"><a href="#code" class="nav-link">code</a></li>
+                <li class="nav-item"><a href="#courses" class="nav-link">courses</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link">projects</a></li>
+                <li class="nav-item"><a href="#education" class="nav-link">education</a></li>
+                <li class="nav-item"><a href="#english" class="nav-link">english</a></li>
+            </ul> 
+            </nav>
+        </div>
+
+    </header>
+
+    <main>
+
+        <div class="main-container container" >
+            <section class="section" id="contacts">
+                <img class="avatar" src="/assets/img/roundfoto.png" alt="avatar">
+            </section>
+            <section class="section" id="profile">
+                <h1 class="h1-Stas">stanislav b.</h1>
+                <h2 class="h2-contacts section-title">junior front-end developper</h2>
+            </section>
+            <section class="section" id="contacts">
+                <h2 class="h2-contacts section-title">Contacts</h2>
+                <ul class="contact-list">
+                    <li class="section-item"><span class="bold-text">Email:</span> stanisbagau@gmail.com</li>
+                    <li class="section-item"><span class="bold-text">GitHub:</span> STBagau</li>
+                </ul>
+            </section>
+            <section class="section" id="summary">
+                <h2 class="h2-summary section-title">Summary</h2>
+                <p>I am currently studying the Frontend Developper profession at RSSchool Stage0. I have good Soft Skills. I believe that programming is my vocation in life. I like astronomy, architecture and literature.</p>
+            </section>
+            <section class="section" id="skills">
+                <h2 class="h2-skills section-title">Skills</h2>
+                <ul class="section-list">
+                    <li class="section-item">HTML</li>
+                    <li class="section-item">CSS</li>
+                    <li class="section-item">JavaScript (Basic)</li>
+                    <li class="section-item">Git</li>
+                </ul>
+            </section>
+            <section class="section" id="code">
+                <h2 class="h2-code section-title">Code</h2>
+                <pre>  
+const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
+    if (fuelLeft * mpg >= distanceToPump) {
+    return true;
+    } else {
+    return false;
+    }
+};
+                </pre>
+            </section>
+            <section class="section" id="courses">
+                <h2 class="h2-courses section-title">Courses</h2>
+                <ul class="courses-list">
+                    <li class="section-item">RS School JS / FRONT-END. STAGE 0 (RU)</li>
+                    <li class="section-item"></li>
+                </ul>
+            </section>
+            <section class="section" id="projects">
+                <h2 class="h2-projects section-title">Projects</h2>
+            </section>
+            <section class="section" id="education">
+                <h2 class="h2-education section-title">Education</h2>
+                <p>Ural State Economic University, Economist</p>
+            </section>
+            <section class="section" id="languages">
+                <h2 class="h2-languages section-title">Languages</h2>
+                <ul class="languages-list">
+                    <li class="section-item"><span class="bold-text">Russian</span> - native speaker</li>
+                    <li class="section-item"><span class="bold-text">English</span> - A2</li>
+                    <li class="section-item"><span class="bold-text">Français</span> - A2</li>
+                    <li class="section-item"><span class="bold-text">Español</span> - A2</li>
+                </ul>
+            </section>
+        </div>
+
+    </main>
+
+    <footer class="footer">
+
+        <div class="container">
+            <ul class="footer-list">
+                <li class="footer-item">20022</li>
+                <li class="footer-item">
+                    <a href="https://rs.school/js/">
+                        <img class="rss" src="/assets/img/rs_school_js.svg" alt=""> 
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+    </footer>
 </body>
 </html>
